@@ -1,0 +1,166 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 745px;
+    font-size: 16px;
+}
+
+.img-omelette {
+    max-width: 100%;
+    height: 300px;
+}
+
+.recipe-intro {
+    max-width: 655px;
+}
+
+.recipe-intro h1 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 10px;
+}
+
+.recipe-intro p {
+    line-height: 22px;
+}
+
+.prep-time {
+    background: hsl(330, 100%, 98%);
+    max-width: 655px;
+    max-height: 180px;
+    padding-left: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.prep-time ul {
+    padding-left: 20px;
+}
+
+.prep-time ul li {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.prep-time ul li p {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.ingredients {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 30px;
+}
+
+.ingredients h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.ingredients ul {
+    padding-left: 20px;
+}
+
+.ingredients ul li {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.ingredients ul li p {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.instructions {
+    color: hsl(14, 45%, 36%);
+    margin: 30px 0;
+}
+
+.instructions h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions li::marker {
+    font-weight: 700;
+}
+
+
+.instructions ol li {
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+.instructions ol li p {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    padding-left: 15px;
+    line-height: 22px;
+}
+
+.nutrition{
+    margin: 30px 0;
+}
+
+.nutrition h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.nutrition p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition th,
+.nutrition td {
+    padding: 10px 0;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.nutrition th {
+    padding-left: 30px;
+    font-family: "Outfit";
+    font-weight: 300;
+}
+
+.nutrition td {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
