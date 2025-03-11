@@ -5,7 +5,9 @@
     justify-content: center;
     align-items: center;
     max-width: 745px;
+    max-height: 1700px;
     font-size: 16px;
+    margin: 120px;
 }
 
 .img-omelette {
